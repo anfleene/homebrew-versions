@@ -9,6 +9,7 @@ class PerconaServer55 < Formula
   depends_on 'cmake' => :build
   depends_on 'readline'
   depends_on 'pidof'
+  depends_on 'openssl'
 
   option :universal
   option 'with-tests', 'Build with unit tests'
